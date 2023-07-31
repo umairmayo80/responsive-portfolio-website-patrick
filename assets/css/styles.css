@@ -740,3 +740,62 @@ svg {
 
 
 }
+
+
+@media screen and (min-width:1152px){
+  .container{
+    margin-inline: auto;
+  }
+
+  .home__container{
+    grid-template-columns: 1fr 1fr;
+    column-gap: 7rem;
+    padding-block: 2rem 3rem;
+  }
+  .home__blob{
+    width: 550px;
+  }
+
+  .home__content{
+    row-gap: 4.5rem;
+  }
+  .home__description{
+    margin-block: 1.5rem 2.5rem;
+  }
+  .home__social{
+    column-gap: 1.5rem;
+  }
+
+  .about__container{
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .about__blob{
+    width: 550px;
+  }
+
+  .about__description{
+    margin-bottom: 3rem;
+  }
+
+  .skills__container{
+    grid-template-columns: 340px 425px;
+    column-gap: 10rem;
+    padding-bottom: 7vh;
+  }
+
+  .skills__group{
+    row-gap: 1.5rem;
+  }
+
+  .services__container{
+    grid-template-columns: repeat(3, 1fr);
+    padding-block: 2.5rem 4rem;
+    column-gap: 2rem;
+  }
+
+
+
+}
